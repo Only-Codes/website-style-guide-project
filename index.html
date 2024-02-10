@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Style Guide Example Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/lii0xrf.css">
     <link rel="stylesheet" type="text/css" href="assets/reset.css"/>
     <link rel="stylesheet" type="text/css" href="assets/styles.css"/>
 </head>
 <body>
     <main>
         <nav>
-            <div><img src="assets/img/onlyedits-logo-white.png"></div>
+            <div class="logo"><img src="assets/img/onlyedits-logo-white.png"></div>
             <ul>
                 <li><a href="#">Colors</a></li>
                 <li><a href="#">Typography</a></li>
@@ -27,21 +31,31 @@
             <h2>Colors</h2>
             <p>These are the colors found throughout the Only Edits website.</p>
         </div>
-        <div class="color-box-1">
-            <p class="color-hex">#090d06</p>
-            <p class="color-text">Background</p>
-        </div>
-        <div class="color-box-2">
-            <p class="color-hex">#f1fbe8</p>
-            <p class="color-text">Primary</p>
-        </div>
-        <div class="color-box-3">
-            <p class="color-hex">#a9ff5c</p>
-            <p class="color-text">Secondary</p>
-        </div>
-        <div class="color-box-4">
-            <p class="color-hex">#e1ffc7</p>
-            <p class="color-text">Accent</p>
+        <div class="color-boxes">
+            <div class="color-box-1">
+                <div class="color-box-content">
+                    <p class="color-hex">#090d06</p>
+                    <p class="color-text">Background</p>
+                </div>
+            </div>
+            <div class="color-box-2">
+                <div class="color-box-content">
+                    <p class="color-hex">#f1fbe8</p>
+                    <p class="color-text">Primary</p>
+                </div>
+            </div>
+            <div class="color-box-3">
+                <div class="color-box-content">
+                    <p class="color-hex">#a9ff5c</p>
+                    <p class="color-text">Secondary</p>
+                </div>
+            </div>
+            <div class="color-box-4">
+                <div class="color-box-content">
+                    <p class="color-hex">#e1ffc7</p>
+                    <p class="color-text">Accent</p>
+                </div>
+            </div>
         </div>
     </section>
     <section class="typography">
@@ -49,20 +63,22 @@
             <h2>Typography</h2>
             <p>These are the text styles for the Only Edits website.</p>
         </div>
-        <div class="text-styles">
-            <h1>Heading 1</h1>
-            <h2>Heading 2</h2>
-            <h3>Heading 3</h3>
-            <h4>Heading 4</h4>
-            <h5>Heading 5</h5>
-            <h6>Heading 6</h6>
-            <p>Paragraph text</p>
-        </div>
-        <div class="fonts">
-            <h3>Futura PT Condensed</h3>
-            <p>The quick brown fox jumps over the lazy dog</p>
-            <h3>Epilogue</h3>
-            <p>The quick brown fox jumps over the lazy dog</p>
+        <div class="typography-section">
+            <div class="text-styles">
+                <h1>Heading 1</h1>
+                <h2>Heading 2</h2>
+                <h3>Heading 3</h3>
+                <h4>Heading 4</h4>
+                <h5>Heading 5</h5>
+                <h6>Heading 6</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut nibh mollis arcu pretium dictum. Cras mollis sem quis tempor vehicula. Ut egestas aliquet neque, eget porta sapien congue quis.</p>
+            </div>
+            <div class="fonts">
+                <h3>Futura PT Condensed</h3>
+                <p class="futura">The quick brown fox jumps over the lazy dog</p>
+                <h3>Epilogue</h3>
+                <p>The quick brown fox jumps over the lazy dog</p>
+            </div>
         </div>
     </section>
     <secton class="components">
@@ -71,8 +87,8 @@
             <p>These are the different components used on the Only Edits website.</p>
         </div>
         <div class="buttons">
-            <button class="primary">Click here!</button>
-            <button class="secondary">Click here!</button>
+            <button class="primary-btn">Click here!</button>
+            <button class="secondary-btn">Click here!</button>
         </div>
     </secton>
 </body>
